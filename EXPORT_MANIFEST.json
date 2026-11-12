@@ -164,7 +164,7 @@
     },
     {
       "path": "docs/android-runtime.cdx.json",
-      "sha256": "684c5dc60f984a275812e842fde34ceedefa6eb1801612778927972e06e42375",
+      "sha256": "9a75269a08ddeeffec97bf2fa6a356680faf20969fc846b9e4e460e7b84c7cc5",
       "size": 30392
     },
     {
@@ -194,13 +194,13 @@
     },
     {
       "path": "docs/runtime-osv.json",
-      "sha256": "edcedb5f96f0b0bcbfee637a3e569761f5c509ef1e5279123bf952c40e32192d",
-      "size": 19989
+      "sha256": "6ea83bd9d7d1f214527f51d0381bece01b67f6876b35aa98601204488bef5f4b",
+      "size": 20025
     },
     {
       "path": "docs/runtime.cdx.json",
-      "sha256": "ac79a77c7a5769db5f9fd66836a188055d28b9a89edfc12ad1da6ad5ceef5adf",
-      "size": 9235
+      "sha256": "2e3d77c13a34ca4d9c9db7400a831d23d0734d6db2245dae08a1441c7c77bae4",
+      "size": 9256
     },
     {
       "path": "docs/TROUBLESHOOTING.md",
@@ -311,11 +311,6 @@
       "path": "example/android/settings.gradle.kts",
       "sha256": "a9b5756048f668d4ebf355116678fd334cd5f2169b7d4518ad19b8df14d3af36",
       "size": 772
-    },
-    {
-      "path": "example/integration_test/protected_state_test.dart",
-      "sha256": "da84d76628a8d32a71843fe340d5de489ef4e67141d3be0c4f93868b42a6f41e",
-      "size": 3931
     },
     {
       "path": "example/ios/.gitignore",
@@ -539,13 +534,13 @@
     },
     {
       "path": "example/pubspec.lock",
-      "sha256": "817e2ad34a686505fa0db22e21a670fb24b5d621b4bbc462c43671dbe32eed41",
-      "size": 7875
+      "sha256": "125570dec45d0d7ff7e0818bf3c6358c2c020e3e31628426dea3ca10f437e431",
+      "size": 6191
     },
     {
       "path": "example/pubspec.yaml",
-      "sha256": "79f88222044730b0868c7dee3479b16ad2b5996906550ccd066f4e87733de106",
-      "size": 427
+      "sha256": "09279bbdbbab1b733679891641267f0a8c5fa806c5480a00af70512b49566fcc",
+      "size": 390
     },
     {
       "path": "ios/.gitignore",
@@ -919,8 +914,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "c42f8fa9c8d23ef1013b43b83475e7ec8529ad918aa963c5fd00b79b4b68488c",
-      "size": 2908
+      "sha256": "3aa1026838f9436ea9a803317e0de8db68c846b045b5f87cdbf14be7ff571b04",
+      "size": 3063
     },
     {
       "path": "scripts/check-native-copies.sh",
@@ -933,6 +928,11 @@
       "size": 2331
     },
     {
+      "path": "scripts/prepare-integration.py",
+      "sha256": "3775bbb6d082da4832f48efa0eb1048d84aa0b1ca2cd1b352545f42cab21a7ba",
+      "size": 1864
+    },
+    {
       "path": "scripts/test-channel.sh",
       "sha256": "2c41c3d5d5d497fbd4a76541dbcd248602ff1cf1e6c1a9b38f7227bd0608ba02",
       "size": 151
@@ -941,6 +941,11 @@
       "path": "scripts/test-crash.sh",
       "sha256": "460a7d6cc97a431367a85ffc316ec93bc341742bd312c46ac602ce14c283324d",
       "size": 1167
+    },
+    {
+      "path": "scripts/test-integration.sh",
+      "sha256": "b59d52c6d89abb309ccc58fe2a6451194897d89694fc49e94105441d03825156",
+      "size": 847
     },
     {
       "path": "scripts/test-state.sh",
@@ -1041,6 +1046,16 @@
       "path": "test/http_test.dart",
       "sha256": "e52e8f0612b156549a127caa460111bd103f72f5db4b5365eac99a522516af0f",
       "size": 7208
+    },
+    {
+      "path": "test/integration/protected_state_test.dart.template",
+      "sha256": "da84d76628a8d32a71843fe340d5de489ef4e67141d3be0c4f93868b42a6f41e",
+      "size": 3931
+    },
+    {
+      "path": "test/integration/pubspec.lock",
+      "sha256": "3abe2ceab72e6ad46d96e21d4f8b86170e440056ce781108c29988ac34419486",
+      "size": 7886
     },
     {
       "path": "test/native_channel/main.swift",

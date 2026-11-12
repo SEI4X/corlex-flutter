@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "queriedAt": "2026-11-12T22:42:20Z",
+  "queriedAt": "2026-11-12T23:25:38Z",
   "endpoint": "https://api.osv.dev/v1/querybatch",
   "requestSha256": "a36e09b2e09db7ba7473fadc6355e1f68db13b6bc22cef6109ad8cb4d4cb090f",
   "responseSha256": "a3b6e84e343325773aeabffee54156ae61fd6cd2fbf589504d8748fe9e8ae32f",
-  "scope": "All hosted entries in the frozen SDK and example pubspec.lock; platform SDKs and Maven/build tools are separate scopes.",
+  "scope": "All hosted entries in the frozen SDK, shipped example and isolated integration-consumer lockfiles; platform SDKs and Maven/build tools are separate scopes.",
   "packages": [
     {
       "name": "async",

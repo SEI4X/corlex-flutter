@@ -3,7 +3,7 @@
   "specVersion": "1.6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-12T22:55:32Z",
+    "timestamp": "2026-11-12T23:25:38Z",
     "component": {
       "type": "library",
       "bom-ref": "pkg:pub/corlex_flutter@0.1.0",
@@ -25,7 +25,7 @@
       },
       {
         "name": "corlex:sdk-source-tree:sha1",
-        "value": "39c84e2c0b54671fae3db9cb632a6574ddd400e9"
+        "value": "042140c47cc33579baa63ffbfc78fc1ba696bdb3"
       },
       {
         "name": "corlex:pubspec-lock:sha256",
@@ -33,7 +33,7 @@
       },
       {
         "name": "corlex:example-lock:sha256",
-        "value": "817e2ad34a686505fa0db22e21a670fb24b5d621b4bbc462c43671dbe32eed41"
+        "value": "125570dec45d0d7ff7e0818bf3c6358c2c020e3e31628426dea3ca10f437e431"
       },
       {
         "name": "corlex:owned-license:sha256",
@@ -41,7 +41,7 @@
       },
       {
         "name": "corlex:validation",
-        "value": "Official hosted archive hashes equal pub metadata and lockfiles; licenses equal archive bytes. TLS OSV query covers 30 SDK/example hosted locked packages, zero advisory-bearing results. No absence-of-backdoors claim. Registry release remains disabled."
+        "value": "Official hosted archive hashes equal pub metadata and lockfiles; licenses equal archive bytes. TLS OSV query covers 30 SDK/example/isolated-integration hosted locked packages, zero advisory-bearing results. No absence-of-backdoors claim. Registry release remains disabled."
       }
     ]
   },
