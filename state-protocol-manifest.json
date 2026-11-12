@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "sourceSdk": "corlex-react-native",
+  "files": [
+    {
+      "source": "ios/CorlexPrivacyJson.swift",
+      "target": "ios/Classes/CorlexFlutterPrivacyJson.swift",
+      "sourceSha256": "34b2d21025772af3fc159e6e7d22e7f9134c93e7c1ff32caccd34c975f8a62b6",
+      "sha256": "adefa92a0b6d8286e41819903885d412974b64a8264583601d24db5b1222b174"
+    },
+    {
+      "source": "ios/CorlexProcessPrivacy.swift",
+      "target": "ios/Classes/CorlexFlutterProcessPrivacy.swift",
+      "sourceSha256": "b60f93c346c28921d87e2491a2ab6507cd3725b543fe3a6d89a6f8b7b9a303ee",
+      "sha256": "16da8d67f91c64840cb276fff223f9a1ccd60067920fe0004474e335573e4013"
+    },
+    {
+      "source": "ios/CorlexStateCodec.swift",
+      "target": "ios/Classes/CorlexFlutterStateCodec.swift",
+      "sourceSha256": "d23ee82f606539d8b6ed38308a77bd487e5985f74ce6a91ff9b0f36fecca8f6e",
+      "sha256": "0ce0c7bbe55d3eb7a48e4ed99a4d9dee98e1377991592ca9a94f86fdd9442b2f"
+    },
+    {
+      "source": "ios/CorlexStateStore.swift",
+      "target": "ios/Classes/CorlexFlutterStateStore.swift",
+      "sourceSha256": "c989068dcd3e6f2931429a3f28dcd515200dfac9f12c5a28246f164783de799d",
+      "sha256": "2f7400f14d7266f4be575e1f088b1b5d03ae4bf204f531d213e70730621be17a"
+    },
+    {
+      "source": "android/src/main/java/ru/corlex/crash/CorlexPrivacyJson.kt",
+      "target": "android/src/main/kotlin/ru/corlex/flutter/CorlexFlutterPrivacyJson.kt",
+      "sourceSha256": "530f8c8d7b92012776aa366ce0348e2bfcb846028197a6d8b31d99422dab59a7",
+      "sha256": "de500b8dfac29a0438c8979dc85918d9520c30472783f7941b096b8fa9814171"
+    },
+    {
+      "source": "android/src/main/java/ru/corlex/crash/CorlexProcessPrivacy.kt",
+      "target": "android/src/main/kotlin/ru/corlex/flutter/CorlexFlutterProcessPrivacy.kt",
+      "sourceSha256": "5362ce5b8f1616abdf399aac71692e15be797f82a57317a7f4754989240a5b07",
+      "sha256": "f830dab1a2c5d2c396bd118e72ffe3a0e03299f5c553f84366ff3c8b7114370e"
+    },
+    {
+      "source": "android/src/main/java/ru/corlex/crash/CorlexStateCodec.kt",
+      "target": "android/src/main/kotlin/ru/corlex/flutter/CorlexFlutterStateCodec.kt",
+      "sourceSha256": "c60ed70115ed4202e49e32b27111275d15c0f345c74a65ef1eab27f9bc58eadc",
+      "sha256": "5b98a30ab1bb0373fc3a1715a55d8b174cf5b59762ebd46483efeb497eeb323f"
+    },
+    {
+      "source": "android/src/main/java/ru/corlex/crash/CorlexStateStore.kt",
+      "target": "android/src/main/kotlin/ru/corlex/flutter/CorlexFlutterStateStore.kt",
+      "sourceSha256": "7464b8924a2df40ba5bc0f5938f930d923811e3fcb477570298bd6939bb8ec70",
+      "sha256": "2b84d3eeeb998a3514f7ae37f806f599b257d2b869520501d7ceb14e74113ef3"
+    }
+  ]
+}

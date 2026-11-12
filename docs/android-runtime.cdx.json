@@ -1,0 +1,907 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-12T22:55:32Z",
+    "component": {
+      "type": "library",
+      "name": "Corlex Flutter Android runtime inventory",
+      "version": "0.1.0"
+    },
+    "properties": [
+      {
+        "name": "corlex:scope",
+        "value": "Actual independently resolved :corlex_flutter releaseRuntimeClasspath in the tested Flutter3.41.6 Android consumer; includes the supplied Flutter embedding/platform dependency graph. Inventory, not a fabricated direct-dependency graph. Host application/toolchain/bundled engine third-party licenses remain separate."
+      },
+      {
+        "name": "corlex:sdk-source-tree:sha1",
+        "value": "39c84e2c0b54671fae3db9cb632a6574ddd400e9"
+      },
+      {
+        "name": "corlex:validation",
+        "value": "46 resolved Maven coordinates; official Google/Central/Flutter POM license declarations and SHA-256 recorded (Guava inherited parent checked). All46 TLS OSV results empty. Does not establish absence of malicious code."
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib",
+      "version": "2.2.20",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.2.20",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom\",\"sha256\":\"4a8b086e6431bcf623637f52b2ff192e1adb913838742e5c0eea70a8dee429c4\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains:annotations",
+      "version": "23.0.0",
+      "purl": "pkg:maven/org.jetbrains/annotations@23.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom\",\"sha256\":\"c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "version": "2.2.20",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@2.2.20",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/2.2.20/kotlin-stdlib-common-2.2.20.pom\",\"sha256\":\"fd789cb32e2410ecc683b8739f7b75003d09da33330c3f8a65c269db6b2f6c75\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+      "version": "1.8.20",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.20",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.20/kotlin-stdlib-jdk8-1.8.20.pom\",\"sha256\":\"3a462214a336e995687769531b1e37b0c81d8e10c9949cd5ea7ae1d7803a0232\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+      "version": "1.8.20",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.20",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.20/kotlin-stdlib-jdk7-1.8.20.pom\",\"sha256\":\"3622d106578cddcc0a9ec20f8ce815f7f49ff542f640228d2141fcaf80616b06\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "io.flutter:flutter_embedding_release",
+      "version": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb",
+      "purl": "pkg:maven/io.flutter/flutter_embedding_release@1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://storage.googleapis.com/download.flutter.io/io/flutter/flutter_embedding_release/1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb/flutter_embedding_release-1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb.pom\",\"sha256\":\"27e1a530abb52d893a13bdb5ba199e9da93e56edd4cbba626ae51123beeadb1f\"}]"
+        },
+        {
+          "name": "corlex:upstream-license-boundary",
+          "value": "Flutter engine/framework upstream BSD license; generated embedding POM omits a license element."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-common",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.7.0/lifecycle-common-2.7.0.pom\",\"sha256\":\"8a7c2448917f84fa6793dfe8563b49c96562d6e86eed19c642ef300d5cd16bc0\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.annotation:annotation",
+      "version": "1.8.1",
+      "purl": "pkg:maven/androidx.annotation/annotation@1.8.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1.pom\",\"sha256\":\"b71225974ec087eb96c25ef6819f55b1c22f530e85ca446ba735fb66ed04ff5c\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.annotation:annotation-jvm",
+      "version": "1.8.1",
+      "purl": "pkg:maven/androidx.annotation/annotation-jvm@1.8.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1.pom\",\"sha256\":\"d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android",
+      "version": "1.7.1",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.7.1/kotlinx-coroutines-android-1.7.1.pom\",\"sha256\":\"80f47d014115258758d4e1c5e4c9238c9eed36d2249d1d25858a934b29aba5df\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+      "version": "1.7.1",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.7.1/kotlinx-coroutines-core-1.7.1.pom\",\"sha256\":\"046b010fc7a0e43d2bfc73a9de7675de5541006cbce96163121746034d69d723\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
+      "version": "1.7.1",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.7.1/kotlinx-coroutines-core-jvm-1.7.1.pom\",\"sha256\":\"85c19db10dbc448a04663cdfb478243eda0a8d6b127f108f19955b16d489b35d\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-bom",
+      "version": "1.7.1",
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.1/kotlinx-coroutines-bom-1.7.1.pom\",\"sha256\":\"b925aa988c40a5c7aa0c77b21373feb18c39414926bd51c76ef44434f5bae9c2\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-common-java8",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common-java8@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common-java8/2.7.0/lifecycle-common-java8-2.7.0.pom\",\"sha256\":\"c29de269fca03230d0fb5ebf9c9560950b9f9bcd540ed7fcf85c08beca1afddb\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-process",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-process@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.7.0/lifecycle-process-2.7.0.pom\",\"sha256\":\"7b07a80cb709396b69b071ea1a9177846ed699b4b44bebb1f9bad8bbbf21a23d\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-runtime",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.7.0/lifecycle-runtime-2.7.0.pom\",\"sha256\":\"fec5849eef5069ae19f0c6270d76421485f461f1025c90277b05ddd713c7e365\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.arch.core:core-common",
+      "version": "2.2.0",
+      "purl": "pkg:maven/androidx.arch.core/core-common@2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.pom\",\"sha256\":\"1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.arch.core:core-runtime",
+      "version": "2.2.0",
+      "purl": "pkg:maven/androidx.arch.core/core-runtime@2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.pom\",\"sha256\":\"0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.profileinstaller:profileinstaller",
+      "version": "1.3.1",
+      "purl": "pkg:maven/androidx.profileinstaller/profileinstaller@1.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1.pom\",\"sha256\":\"08263eb70a814a7cb26d11d3a83825f84c29f3e4b59f9134724e0e02e2bbd768\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.concurrent:concurrent-futures",
+      "version": "1.1.0",
+      "purl": "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0.pom\",\"sha256\":\"748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "com.google.guava:listenablefuture",
+      "version": "1.0",
+      "purl": "pkg:maven/com.google.guava/listenablefuture@1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.pom\",\"sha256\":\"53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a\"},{\"url\":\"https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom\",\"sha256\":\"f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.startup:startup-runtime",
+      "version": "1.1.1",
+      "purl": "pkg:maven/androidx.startup/startup-runtime@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.pom\",\"sha256\":\"f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.tracing:tracing",
+      "version": "1.2.0",
+      "purl": "pkg:maven/androidx.tracing/tracing@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.2.0/tracing-1.2.0.pom\",\"sha256\":\"f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-livedata-core",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.7.0/lifecycle-livedata-core-2.7.0.pom\",\"sha256\":\"d8e8a0ccedc798db560c637df432159cb05ec3ad18f9b8f6648f59bd4580acd6\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-livedata",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/2.7.0/lifecycle-livedata-2.7.0.pom\",\"sha256\":\"69885fd126b6866da760421636cb31cbf0fc5195f9962f45b9775c2d18496fc8\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-livedata-core-ktx",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core-ktx@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core-ktx/2.7.0/lifecycle-livedata-core-ktx-2.7.0.pom\",\"sha256\":\"67502b56b0695b2c2a1c8ff2b93ebd23b6c3d0c214f1ea3b96211eca98960fc4\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-viewmodel",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.7.0/lifecycle-viewmodel-2.7.0.pom\",\"sha256\":\"700f289173adcd0c6144da0c692c4e40b0a83af5a1392c544da982f4aabbd48e\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate",
+      "version": "2.7.0",
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.7.0/lifecycle-viewmodel-savedstate-2.7.0.pom\",\"sha256\":\"df0107a734b53080a2847bfabbf8e127958b765f6d5a0d5e028281af3964623f\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.core:core-ktx",
+      "version": "1.13.1",
+      "purl": "pkg:maven/androidx.core/core-ktx@1.13.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.13.1/core-ktx-1.13.1.pom\",\"sha256\":\"31cc345b8c6cdd2046dcf67872df8a8cb4f44ea0cade4df80002caa7e3b71809\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.core:core",
+      "version": "1.13.1",
+      "purl": "pkg:maven/androidx.core/core@1.13.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/core/core/1.13.1/core-1.13.1.pom\",\"sha256\":\"527abfa5a8d6af748b37e1c0162d1633a2d5ea4387b0205a8b436b6214ba1cf6\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.annotation:annotation-experimental",
+      "version": "1.4.0",
+      "purl": "pkg:maven/androidx.annotation/annotation-experimental@1.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.0/annotation-experimental-1.4.0.pom\",\"sha256\":\"41d2b9d879fc9221acda8e873ec7d26b153b9b8e04770ac79491e0576baef038\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.collection:collection",
+      "version": "1.1.0",
+      "purl": "pkg:maven/androidx.collection/collection@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.1.0/collection-1.1.0.pom\",\"sha256\":\"67e9066ca4acfdc6e3cc508293c31ba0398057ff118e4f70b1e1813c9a3456d1\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.interpolator:interpolator",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.interpolator/interpolator@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.pom\",\"sha256\":\"0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.versionedparcelable:versionedparcelable",
+      "version": "1.1.1",
+      "purl": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.pom\",\"sha256\":\"5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.savedstate:savedstate",
+      "version": "1.2.1",
+      "purl": "pkg:maven/androidx.savedstate/savedstate@1.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1.pom\",\"sha256\":\"0d33bc285df1e12f22780f1624a6f0b38ea2a6181b0955ec6641caf620c50cbf\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.fragment:fragment",
+      "version": "1.7.1",
+      "purl": "pkg:maven/androidx.fragment/fragment@1.7.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.7.1/fragment-1.7.1.pom\",\"sha256\":\"18bbbd3a53f8c1f026be496a847d9607ae06da9cb0f85f47f702fd27e2bd3906\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.activity:activity",
+      "version": "1.8.1",
+      "purl": "pkg:maven/androidx.activity/activity@1.8.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.8.1/activity-1.8.1.pom\",\"sha256\":\"c0ccbb0f6bd3f3a4fe338811dd8aee19b4919f4197613ee801bf33dd6dd702d7\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.loader:loader",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.loader/loader@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0/loader-1.0.0.pom\",\"sha256\":\"c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.viewpager:viewpager",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.viewpager/viewpager@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0.pom\",\"sha256\":\"1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.customview:customview",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.customview/customview@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0/customview-1.0.0.pom\",\"sha256\":\"ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.window:window-java",
+      "version": "1.2.0",
+      "purl": "pkg:maven/androidx.window/window-java@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/window/window-java/1.2.0/window-java-1.2.0.pom\",\"sha256\":\"73570afdc9db596396a92beefe4de5d22afac7eab112c4ab30737bb7f884a1fd\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.window:window",
+      "version": "1.2.0",
+      "purl": "pkg:maven/androidx.window/window@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/window/window/1.2.0/window-1.2.0.pom\",\"sha256\":\"280c00e2495e1d5749b1c0ab59fc728a2964ccb33f5e11880857ee2efe4ec15b\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.window.extensions.core:core",
+      "version": "1.0.0",
+      "purl": "pkg:maven/androidx.window.extensions.core/core@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/window/extensions/core/core/1.0.0/core-1.0.0.pom\",\"sha256\":\"ec7573c61c1f9f510f6e5bcad2683b4dcb401fee75426c0f57b41490836791c8\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "com.getkeepsafe.relinker:relinker",
+      "version": "1.4.5",
+      "purl": "pkg:maven/com.getkeepsafe.relinker/relinker@1.4.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/com/getkeepsafe/relinker/relinker/1.4.5/relinker-1.4.5.pom\",\"sha256\":\"099e4e007b80700c25190b81ac7b256f42b04f1e829dbd0673f0c415e9613426\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "androidx.exifinterface:exifinterface",
+      "version": "1.4.1",
+      "purl": "pkg:maven/androidx.exifinterface/exifinterface@1.4.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://dl.google.com/dl/android/maven2/androidx/exifinterface/exifinterface/1.4.1/exifinterface-1.4.1.pom\",\"sha256\":\"944e867584e20748613cc7610bd5fa10a968cc98cb59fdfdb863e9f0201df289\"}]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "org.jspecify:jspecify",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.jspecify/jspecify@1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:resolved-pom-evidence",
+          "value": "[{\"url\":\"https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom\",\"sha256\":\"cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6\"}]"
+        }
+      ]
+    }
+  ]
+}

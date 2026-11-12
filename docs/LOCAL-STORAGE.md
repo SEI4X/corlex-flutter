@@ -1,0 +1,7 @@
+# Flutter SDK storage
+
+The SDK uses its own backup-excluded Application Support directory on iOS and noBackupFilesDir namespace on Android. SHA-256 owner scopes bind the SDK write key and complete ingest/config base URLs; a global SDK privacy generation fences captured state, delayed callbacks and requests. Another credential/proxy cannot inherit events, identity, flags or crashes. Native protected state has an aggregate 8 MiB bound; malformed controls fail closed. Only explicit optIn records an owner choice; ATT observations do not fabricate permission. Withdrawal clears SDK scopes and preserves refusal.
+
+Pending consent buffers bounded events in memory and never persists crash reports. Corrupt/unavailable privacy storage stays pending; an explicit fresh opt-in may use memory-only state. Native crash installation, recovery and acknowledgement require the immutable current owner/generation; failed delivery retains the original receipt. Legacy unscoped data is not adopted. Restrictive permissions, bounded parsing and no-follow checks apply to SDK files.
+
+OS sandbox/data-at-rest protection applies; no independent SDK encryption, host-wide backup policy change or retroactive cloud-backup erasure is claimed. Runtime crypto 3.0.8 supplies SHA-256 and keeps its BSD-3-Clause license; Flutter SDK/toolchain dependencies are resolved separately. See runtime.cdx.json for the reviewed runtime scope.
