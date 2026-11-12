@@ -1,0 +1,344 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-12T23:25:38Z",
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:pub/corlex_flutter@0.1.0",
+      "name": "Corlex Flutter SDK",
+      "version": "0.1.0",
+      "purl": "pkg:pub/corlex_flutter@0.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "corlex:scope",
+        "value": "Actual flutter pub deps --json direct-main closure: crypto plus the supplied Flutter/sky_engine platform and its resolved hosted runtime graph. Does not inventory an entire host app, build/test Maven graph or bundled OS frameworks."
+      },
+      {
+        "name": "corlex:sdk-source-tree:sha1",
+        "value": "042140c47cc33579baa63ffbfc78fc1ba696bdb3"
+      },
+      {
+        "name": "corlex:pubspec-lock:sha256",
+        "value": "789721924201b83bef82d474910d8a7561e66a9d80bcc0e217b9bb4be811e319"
+      },
+      {
+        "name": "corlex:example-lock:sha256",
+        "value": "125570dec45d0d7ff7e0818bf3c6358c2c020e3e31628426dea3ca10f437e431"
+      },
+      {
+        "name": "corlex:owned-license:sha256",
+        "value": "0596a484c067a63b693813f9e92179195dc87097ff1ad6e500d9c3f2de0c5919"
+      },
+      {
+        "name": "corlex:validation",
+        "value": "Official hosted archive hashes equal pub metadata and lockfiles; licenses equal archive bytes. TLS OSV query covers 30 SDK/example/isolated-integration hosted locked packages, zero advisory-bearing results. No absence-of-backdoors claim. Registry release remains disabled."
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/characters@1.4.1",
+      "name": "characters",
+      "version": "1.4.1",
+      "purl": "pkg:pub/characters@1.4.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "faf38497bda5ead2a8c7615f4f7939df04333478bf32e4173fcb06d428b5716b"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pub.dev/api/archives/characters-1.4.1.tar.gz"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:upstream-license:sha256",
+          "value": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/collection@1.19.1",
+      "name": "collection",
+      "version": "1.19.1",
+      "purl": "pkg:pub/collection@1.19.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2f5709ae4d3d59dd8f7cd309b4e023046b57d8a6c82130785d2b0e5868084e76"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pub.dev/api/archives/collection-1.19.1.tar.gz"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:upstream-license:sha256",
+          "value": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/crypto@3.0.8",
+      "name": "crypto",
+      "version": "3.0.8",
+      "purl": "pkg:pub/crypto@3.0.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e3626ae6270383c9e3a549f34c9e4cd26c09ae6a9adaab2bf4737a00340efdc4"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pub.dev/api/archives/crypto-3.0.8.tar.gz"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:upstream-license:sha256",
+          "value": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/material_color_utilities@0.13.0",
+      "name": "material_color_utilities",
+      "version": "0.13.0",
+      "purl": "pkg:pub/material_color_utilities@0.13.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9c337007e82b1889149c82ed242ed1cb24a66044e30979c44912381e9be4c48b"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pub.dev/api/archives/material_color_utilities-0.13.0.tar.gz"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:upstream-license:sha256",
+          "value": "d103f246ef4c18dab8af0c1dcf6a8af884e5cff554da7261a48ac43c17d98f2e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/meta@1.17.0",
+      "name": "meta",
+      "version": "1.17.0",
+      "purl": "pkg:pub/meta@1.17.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pub.dev/api/archives/meta-1.17.0.tar.gz"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:upstream-license:sha256",
+          "value": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pub/vector_math@2.2.0",
+      "name": "vector_math",
+      "version": "2.2.0",
+      "purl": "pkg:pub/vector_math@2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d530bd74fea330e6e364cda7a85019c434070188383e1cd8d9777ee586914c5b"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://pub.dev/api/archives/vector_math-2.2.0.tar.gz"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:upstream-license:sha256",
+          "value": "b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "bom-ref": "pkg:generic/flutter@3.41.6",
+      "name": "flutter",
+      "version": "3.41.6",
+      "purl": "pkg:generic/flutter@3.41.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/flutter/flutter/tree/db50e20168db8fee486b9abf32fc912de3bc5b6a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:platform-boundary",
+          "value": "Supplied by the tested Flutter SDK/engine; not vendored in this source snapshot. Dart3.11.4."
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:generic/flutter/sky_engine@db50e20168db8fee486b9abf32fc912de3bc5b6a",
+      "name": "sky_engine",
+      "version": "0.0.0",
+      "purl": "pkg:generic/flutter/sky_engine@db50e20168db8fee486b9abf32fc912de3bc5b6a",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/flutter/flutter/tree/db50e20168db8fee486b9abf32fc912de3bc5b6a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "corlex:platform-boundary",
+          "value": "Supplied by the tested Flutter SDK/engine; not vendored in this source snapshot. Dart3.11.4."
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:pub/corlex_flutter@0.1.0",
+      "dependsOn": [
+        "pkg:pub/crypto@3.0.8",
+        "pkg:generic/flutter@3.41.6"
+      ]
+    },
+    {
+      "ref": "pkg:pub/characters@1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pub/collection@1.19.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pub/crypto@3.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:generic/flutter@3.41.6",
+      "dependsOn": [
+        "pkg:pub/characters@1.4.1",
+        "pkg:pub/collection@1.19.1",
+        "pkg:pub/material_color_utilities@0.13.0",
+        "pkg:pub/meta@1.17.0",
+        "pkg:pub/vector_math@2.2.0",
+        "pkg:generic/flutter/sky_engine@db50e20168db8fee486b9abf32fc912de3bc5b6a"
+      ]
+    },
+    {
+      "ref": "pkg:pub/material_color_utilities@0.13.0",
+      "dependsOn": [
+        "pkg:pub/collection@1.19.1"
+      ]
+    },
+    {
+      "ref": "pkg:pub/meta@1.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:generic/flutter/sky_engine@db50e20168db8fee486b9abf32fc912de3bc5b6a",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pub/vector_math@2.2.0",
+      "dependsOn": []
+    }
+  ]
+}

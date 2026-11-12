@@ -1,0 +1,96 @@
+name: Public SDK CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: sdk-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          flutter-version: '3.41.6'
+          channel: stable
+          cache: false
+      - name: Verify the reviewed Flutter framework revision
+        run: |
+          flutter --version --machine > "$RUNNER_TEMP/flutter-version.json"
+          python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["frameworkRevision"]=="db50e20168db8fee486b9abf32fc912de3bc5b6a"' "$RUNNER_TEMP/flutter-version.json"
+      - run: flutter pub get --enforce-lockfile
+      - name: Verify the SDK-owned native source and privacy copies
+        run: bash scripts/check-native-copies.sh
+      - name: Verify example dependency locks
+        working-directory: example
+        run: flutter pub get --enforce-lockfile
+      - run: flutter analyze
+      - run: flutter test --coverage
+      - name: Compile the native Android plugin in the example app
+        working-directory: example
+        run: flutter build apk --release --no-pub
+      - name: Test the Android crash reporter
+        working-directory: example/android
+        run: ./gradlew --no-daemon --max-workers=2 --console=plain :corlex_flutter:testDebugUnitTest
+  native:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          flutter-version: '3.41.6'
+          channel: stable
+          cache: false
+      - name: Verify the reviewed Flutter framework revision
+        run: |
+          flutter --version --machine > "$RUNNER_TEMP/flutter-version.json"
+          python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["frameworkRevision"]=="db50e20168db8fee486b9abf32fc912de3bc5b6a"' "$RUNNER_TEMP/flutter-version.json"
+      - run: flutter pub get --enforce-lockfile
+      - name: Verify the SDK-owned native source and privacy copies
+        run: bash scripts/check-native-copies.sh
+      - name: Verify example dependency locks
+        working-directory: example
+        run: flutter pub get --enforce-lockfile
+      - run: flutter analyze
+      - run: flutter test --coverage
+      - name: Exercise protected iOS state, channel and native crash privacy
+        run: |
+          scripts/test-state.sh
+          scripts/test-channel.sh
+          scripts/test-crash.sh
+      - name: Compile the native iOS plugin in the example app
+        working-directory: example
+        run: flutter build ios --simulator --debug --no-pub
+  security:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e
+        with:
+          go-version: '1.26.11'
+          cache: false
+      - name: Scan all source history without exposing matches
+        run: go run github.com/zricethezav/gitleaks/v8@v8.30.1 git --config .gitleaks.toml --redact --no-banner .
